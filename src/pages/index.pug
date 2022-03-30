@@ -1,0 +1,9 @@
+extends ../components/Layout
+include ../components/Button
+
+//- mixin Button(content, contained)
+//-   button(class=`btn ${contained ? 'contained' : 'normal'}`)=content
+
+block Layout
+  h1 Home page title
+  +Button('Button content', true)
